@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - The program to print string
  *
- * main - App entry
- *
- * Return: Always (0) Success
+ * Return: Always 0 Success
  */
 
 int main(void)
