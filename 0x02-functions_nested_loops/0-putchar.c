@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * main - program to start
@@ -11,8 +11,8 @@
 int main(void)
 {
 	int i = 0;
-
 	char toprint[] = "_putchar";
+
 	while (i < (int) strlen(toprint) - 1)
 	{
 		_putchar(toprint[i]);
