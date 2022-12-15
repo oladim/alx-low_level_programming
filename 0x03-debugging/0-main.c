@@ -3,14 +3,14 @@
 /**
  * main - entry point
  *
- *
- *
  * Return: Always 0 Success
- *
  */
 
 int main(void)
 {
-	positive_or_negative(0);
+	int i;
+
+	i = 98;
+	positive_or_negative(i);
 	return (0);
 }
