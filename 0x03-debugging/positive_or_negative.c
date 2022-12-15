@@ -7,7 +7,7 @@
  * Return: Always 0 Success
  */
 
-int main(int y)
+int positive_or_negative(int y)
 
 {
 	if (y > 0)
