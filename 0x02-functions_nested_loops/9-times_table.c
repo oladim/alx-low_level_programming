@@ -34,7 +34,7 @@ void times_table(void)
 			}
 			if (k == 9)
 			{
-				_putchar(' ');
+				continue;
 			}
 			else
 			{
