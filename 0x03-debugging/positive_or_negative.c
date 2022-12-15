@@ -7,7 +7,7 @@
  * Return: Always 0 Success
  */
 
-int positive_or_negative(int y)
+void positive_or_negative(int y)
 
 {
 	if (y > 0)
@@ -20,6 +20,5 @@ int positive_or_negative(int y)
 	{
 		printf("%u is zero\n", y);
 	}
-	return (0);
 
 }
