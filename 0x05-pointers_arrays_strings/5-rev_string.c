@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int len;
 	int dec;
 
-	char scop[10];
+	char scop[1000];
 
 	strcpy(scop, s);
 	len = strlen(s) - 1;
