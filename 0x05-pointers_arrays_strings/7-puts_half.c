@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 
-/**
+/*
  * puts_half - prints half characters
  * @str: parameter
  */
@@ -11,7 +11,7 @@ void puts_half(char *str)
 	int len;
 	int v;
 
-	len = strlen(str);
+	len = strlen(str) - 1;
 
 	if ((len % 2) == 0)
 	{
